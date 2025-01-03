@@ -36,10 +36,10 @@ function App() {
     );
 
     return !robots.length ? (
-      <h1 className="tc">Loading...</h1>
+      <h1 className="tc">🤖 Loading...</h1>
     ) : (
       <div className="tc">
-        <h1 className="f1">ROBO Friends</h1>
+        <h1 className="f1">Los 🤖ROBO Hermanos</h1>
         <Searchbox searchChange={onSearchChange} />
         <Scroll>
           <CardList robots={filteredRobots} />
